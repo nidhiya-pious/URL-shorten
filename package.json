@@ -1,0 +1,28 @@
+{
+  "name": "urlshorten",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nidhiya172/URL-shorten.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nidhiya172/URL-shorten/issues"
+  },
+  "homepage": "https://github.com/nidhiya172/URL-shorten#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.8",
+    "nodemon": "^2.0.4",
+    "shortid": "^2.2.15",
+    "valid-url": "^1.0.9"
+  }
+}
